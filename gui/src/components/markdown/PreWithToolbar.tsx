@@ -59,7 +59,7 @@ function PreWithToolbar(props: {
         style={{
           position: "absolute",
           top: "-9px",
-          left: collapsed ? "-11px" : "0px",
+          left: collapsed ? "-11px" : "-2px",
           backgroundColor: "transparent",
           color: "lightgray",
           cursor: "pointer",
@@ -106,7 +106,7 @@ function PreWithToolbar(props: {
           style={{
             position: "absolute",
             bottom: "-10px",
-            left: collapsed ? "-11px" : "0px",
+            left: collapsed ? "-11px" : "-2px",
             backgroundColor: "transparent",
             color: "lightgray",
             cursor: "pointer",
